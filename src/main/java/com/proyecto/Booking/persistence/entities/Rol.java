@@ -1,3 +1,4 @@
+/*
 package com.proyecto.Booking.persistence.entities;
 
 import jakarta.persistence.*;
@@ -27,3 +28,5 @@ public class Rol {
         this.id = id;
     }
 }
+
+*/

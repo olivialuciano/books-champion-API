@@ -9,7 +9,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/book")
+@RequestMapping("book")
 public class BookController {
 
     @Autowired
@@ -23,7 +23,7 @@ public class BookController {
 
 
 
-    @GetMapping("traertodoslosbook")
+    @GetMapping
     public ResponseEntity<List<Book>>traertodos(){
 
         return ResponseEntity.ok(bookService.retornarTodosLosBooks());
